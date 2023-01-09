@@ -36,7 +36,6 @@ public:
 	void noPlay();
 
 private:
-	uint16_t cursor = 0;
-	uint8_t pins[8] = {4, 5, 6, 8, A2, A3, A4, A5};
+	const uint8_t pins[8] PROGMEM = {4, 5, 6, 8, A2, A3, A4, A5};
 };
 #endif
